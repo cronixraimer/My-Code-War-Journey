@@ -1,3 +1,5 @@
+#very taff case when online platfor provides you test case when you trying to submit all code my platform
+#was waiting only subclass to put piece of code into test case 
 def findNeedle(haystack):
     for i, item in enumerate(haystack):
         if item == "needle":
