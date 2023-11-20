@@ -1,3 +1,4 @@
+#After finishing this code I will see better option of doing this task
 def to_alternating_case(string):
     result = ""
     for char in string:
