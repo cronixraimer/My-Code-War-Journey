@@ -7,4 +7,4 @@ n = int(input())
 result = multiply(n)
 print(result)
 
-# best solution : return n **5*len(str(abs(n)))
+# best solution : return n **5*len(str(abs(n))) same logic but less code 
