@@ -1,13 +1,20 @@
 def calculator(x,y,op):
-    if op == '+':
-        return x + y
-    elif op == '-':
-        return x - y
-    elif op == '*':
-        return x * y
-    elif op == '/':
-        return x / y
-    else: return 'unknown value'
+    try:
+        x = int(x)
+        y = int(y)
+
+        if op == '+':
+            return x + y
+        elif op == '-':
+            return x - y
+        elif op == '*':
+            return x * y
+        elif op == '/':
+            return x / y
+        else:
+            return "unknown operation"
+    except ValueError:
+        return "unknown value"
 
 
 
